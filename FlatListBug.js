@@ -1,0 +1,1 @@
+This bug occurs when using the `FlatList` component in React Native with a large dataset.  The performance becomes very sluggish, and scrolling is jerky.  The issue stems from the fact that the `FlatList` component renders every item in the dataset, even those that are not visible on the screen. This can cause significant performance issues, especially on lower-end devices.
